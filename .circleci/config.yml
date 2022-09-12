@@ -2,6 +2,7 @@ version: 2.1
 
 jobs:
   installation:
+    docker:
     steps:
       - run: echo "nothing to install"
 
@@ -9,3 +10,4 @@ workflows:
   insall:
     jobs:
       - installation
+
