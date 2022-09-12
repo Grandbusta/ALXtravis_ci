@@ -1,0 +1,11 @@
+version: 2.1
+
+jobs:
+  installation:
+    steps:
+      - run: echo "nothing to install"
+
+workflows:
+  insall:
+    jobs:
+      - installation
